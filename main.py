@@ -6,11 +6,6 @@ import logging
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.keys import Keys
 
-
-def page(x):
-    page_list = driver.find_elements_by_class('num')
-    print(page_list[x].text)
-
 def news(n, z, c):#id 耗时 次数
     news_list = driver.find_elements_by_id(n) #找到对应日期元素组，注意是elements
     
